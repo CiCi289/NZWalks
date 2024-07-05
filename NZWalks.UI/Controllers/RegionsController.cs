@@ -137,6 +137,7 @@ namespace NZWalks.UI.Controllers
         Content = new StringContent(JsonSerializer.Serialize(request), Encoding.UTF8, "application/json")
       };
 
+
       var httpResponseMessage = await client.SendAsync(httpRequestMessage);
       httpResponseMessage.EnsureSuccessStatusCode();
 
