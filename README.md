@@ -38,7 +38,7 @@ List of technologies and tools used in the project are:
 - C#
 - .NET 8
 - Entity Framework Core
-- SQL Server
+- Microsoft SQL Server
 - LINQ
 - ASP.NET Core MVC
 - JWT Authentication and Authorization with Identity Packages
